@@ -1,0 +1,41 @@
+.header{
+  max-width: 100%;
+  height: auto;
+  background-color: #276af0;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+.nav__list{
+  padding: 2px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__menu{
+  font-size: 1.2rem;
+  font-family: helvetica;
+  margin: 1rem;
+  padding: .5rem;
+}
+a{
+ color: aliceblue;
+  text-decoration: none;
+}
+.nav__link:hover{
+  opacity: 0.5;
+  color: aqua;
+}
+.btn{
+  display: none;
+}
+.nav__icon{
+  font-size: 1.3rem;
+  margin-left: 1.3rem;
+}
+/*from main*/
+
+* {
+  padding: 0;
+  border: none;
+  outline: none;
+}
